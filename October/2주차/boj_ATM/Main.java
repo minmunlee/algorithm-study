@@ -19,10 +19,8 @@ public class Main {
 
         for(int i = 0; i<list.size(); i++){
             sum += list.get(i);
-            if(i != 0){
-                for(int j = i-1; j >= 0; j--){
-                    sum += list.get(j);
-                }
+            for(int j = i-1; j >= 0; j--){
+                sum += list.get(j);
             }
         }
 
