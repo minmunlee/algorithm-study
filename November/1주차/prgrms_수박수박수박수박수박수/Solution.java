@@ -1,6 +1,10 @@
 class Solution {
     public String solution(int n) {
-        String answer = "";
-        return answer;
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<n/2; i++) {
+            sb.append("수박");
+        }
+        if(n % 2 == 0) return sb.toString();
+        return sb.append("수").toString();
     }
 }
