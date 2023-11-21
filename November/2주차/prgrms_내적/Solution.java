@@ -1,6 +1,8 @@
+import java.util.stream.*;
 class Solution {
     public int solution(int[] a, int[] b) {
-        int answer = 1234567890;
-        return answer;
+        return IntStream.range(0, a.length)
+            .map(i -> a[i] * b[i])
+            .sum();
     }
 }
