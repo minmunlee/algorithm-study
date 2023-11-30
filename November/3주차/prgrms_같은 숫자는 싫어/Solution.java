@@ -2,11 +2,12 @@ import java.util.*;
 
 public class Solution {
     public int[] solution(int []arr) {
-        int[] answer = {};
-        
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-        System.out.println("Hello Java");
-
-        return answer;
+        ArrayList<Integer> stackArray = new ArrayList<>();
+        stackArray.add(arr[0]);
+        for(int i=1;i<arr.length;i++){
+            int beforeNum = stackArray.get(stackArray.size()-1);
+            if(arr[i]!=beforeNum) stackArray.add(arr[i]);
+        }
+        return stackArray.stream().mapToInt(Integer::intValue).toArray();
     }
 }
