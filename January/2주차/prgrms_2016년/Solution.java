@@ -1,7 +1,5 @@
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.Map;
 
 class Solution {
     public static String solution(int a, int b) {
