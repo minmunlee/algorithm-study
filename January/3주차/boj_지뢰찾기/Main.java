@@ -30,7 +30,7 @@
                     if(map[i][j].equals(".")){
                             int cnt = 0;
                             // 현재 위치에서 근처 값들을 보고 *인지 판별. 단 근처 값들의 위치가 -이면 안됨
-                            for (int dx = -1; dx <= 1; dx++) {
+                            for (int dx = -1; dx <= 1; dx++) { // -1 0 1로 위 아래 대각선 위치 확인
                                 for (int dy = -1; dy <= 1; dy++) {
                                     int ni = i + dx;
                                     int nj = j + dy;
