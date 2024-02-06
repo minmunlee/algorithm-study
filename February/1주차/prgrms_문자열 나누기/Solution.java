@@ -1,7 +1,7 @@
 class Solution {
     public int solution(String s) {
         int answer = 1;
-        int first_word_cnt = 1; // 첫번째 문자 같은 개수
+        int first_word_cnt = 1; // 첫번째 문자 개수
         int other_word_cnt = 0; // 다른 문자 개수
         int fIdx = 0; // 첫번째 문자 위치
         int lIdx = 1; // 다른 문자 위치
