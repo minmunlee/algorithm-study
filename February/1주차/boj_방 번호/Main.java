@@ -34,7 +34,7 @@ public class Main {
         map.put('9', 0);
 
         for (int i = 0; i < str.length(); i++)
-            map.put(str.charAt(i), map.getOrDefault(str.charAt(i), 0) + 1);
+            map.put(str.charAt(i), map.get(str.charAt(i)) + 1);
 
         int tmp = map.get('6') + map.get('9');
         if (tmp > 0) { //6이나 9 둘 중 하나라도 있으면
