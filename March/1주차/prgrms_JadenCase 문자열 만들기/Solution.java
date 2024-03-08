@@ -1,12 +1,11 @@
-class Solution
-{
-    public int solution(int []A, int []B)
-    {
-        int answer = 0;
-
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-        System.out.println("Hello Java");
-
-        return answer;
+class Solution {
+    public String solution(String s) {
+        String[] sarr = s.toLowerCase().split("");
+        for(int i=0;i<sarr.length;i++) {
+            if(sarr[i].equals(" ")) continue;
+            sarr[i] = sarr[i].toUpperCase();
+            while(i<sarr.length-1 && !sarr[++i].equals(" ")){};
+        }
+        return String.join("", sarr);
     }
 }
