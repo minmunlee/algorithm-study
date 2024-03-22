@@ -1,10 +1,30 @@
-class Solution{
-    public int solution(String s) {
-        int answer = -1;
+import java.util.*;
 
-        // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-        System.out.println("Hello Java");
-
-        return answer;
+class Solution
+{
+    public int solution(String s)
+    {
+        Stack<String> stack = new Stack<>();
+        
+        for(String str : s.split("")){
+            if(stack.isEmpty()){
+                stack.push(str);
+                continue;
+            }
+            
+            if(!stack.isEmpty()){
+                if(stack.peek().equals(str)){ // 같은 알파벳이 붙어 있을 경우
+                    stack.pop();
+                }else{
+                    stack.push(str);
+                }
+            }
+        }
+        
+        if(stack.isEmpty()){
+            return 1;
+        }else{
+            return 0;
+        }
     }
 }
