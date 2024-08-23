@@ -1,12 +1,12 @@
 # 🚀 알고리즘 스터디 
 
 ## 🪐 참여자
-|<img width=150 src="https://avatars.githubusercontent.com/u/109871579?v=4" />|<img width=150 src="https://avatars.githubusercontent.com/u/105481797?v=4" />|<img width=150 src="https://avatars.githubusercontent.com/u/126096318?v=4" />|<img width=150 src="https://avatars.githubusercontent.com/u/103199551?v=4" />|
-|:----:|:----:|:----:|:----:|
-| [이채은](https://github.com/ChaeAg) | [문시원](https://github.com/muncool39) | [민서연](https://github.com/gitseoyeon) | [김세정](https://github.com/sejyom)<br>(23.12 합류) |
+|<img width=150 src="https://avatars.githubusercontent.com/u/109871579?v=4" />|<img width=150 src="https://avatars.githubusercontent.com/u/105481797?v=4" />|<img width=150 src="https://avatars.githubusercontent.com/u/126096318?v=4" />|
+|:----:|:----:|:----:|
+| [이채은](https://github.com/ChaeAg) | [문시원](https://github.com/muncool39) | [민서연](https://github.com/gitseoyeon) |
 
 ## ✨ 스터디 진행 방식
-#### 한 주차당 백준 3문제 + 프로그래머스 5문제
+#### 한 주차당 백준 2문제 + 프로그래머스 5문제 (Java + SQL)
 
 **백준** 
 - 한 사람당 다음 주차 문제 **한 개씩** 선정
@@ -14,11 +14,11 @@
 - 선정한 문제가 **감옥 문제집**에 있는 문제보다 레벨이 높을 시, 감옥 문제 한 개가 **석방되고**, 선정한 문제는 감옥에 **수감된다.**
 
 **프로그래머스** 
-- 프로그래머스 사이트 순서대로 5문제
+- 프로그래머스 사이트 순서대로 Java 2문제 + SQL 3문제 총 5문제
 
 ## 📝 PR 방법
 본인 이름 브런치 생성
-- 예) `min`, `mun`, `lee`, `kim`
+- 예) `min`, `mun`, `lee`
 
 해결 시, 한 문제마다 `solve: ` 커밋
 - 예) `solve: boj_카드 2`, `solve: prgrms_음양 더하기`
