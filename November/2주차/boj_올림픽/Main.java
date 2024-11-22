@@ -23,7 +23,7 @@ public class Main {
                 if(o1[2] == o2[2]) {
                     return o2[3] - o1[3];
                 }
-                return o2[1] - o1[2];
+                return o2[2] - o1[2];
             }
             return o2[1] - o1[1];
         });
